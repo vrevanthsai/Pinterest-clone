@@ -1,0 +1,36 @@
+/* css for both createpost and allpins pages */
+/* cratepost css */
+/* logout button */
+.logout-btn {
+    color: green;
+    text-decoration: none;
+    border: 2px solid green;
+    padding: 8px;
+    border-radius: 14px;
+}
+
+.logout-btn:hover {
+    color: white;
+    background-color: green;
+}
+
+.upload{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    text-align: center;
+    gap: 12px;
+    margin: auto;
+    padding: 10px;
+}
+.h1-post{
+    text-align: center;
+}
+/* allpins page css */
+.post-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: start;
+
+}
